@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Fictícia - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h1><img src="imgs/signin_login_in_log_icon_256010.png" id="login-icon" alt="icone de login"> Login</h1>
+        <form id="form">
+            <label for="nome">Seu Nome ou E-mail:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu Nome:" required>
+        <p id="msg-erro-user">Nome de usuário ou email invalido</p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <p id="msg-erro-pass">senha invalida</p>
+        <div class="checkbox-container">
+            <input type="checkbox"  id="checkbox">
+            <label for="checkbox">Mantenha-me conectado</label>
+        </div>
+        </form>
+        <button type="submit">Entrar</button>
+        <p>Esqueceu sua senha. <a href="#">Clique aqui</a></p>
+        <div class="social-links">
+            <p><a href="#"><img src="imgs/google_logo_icon_169090.png" alt=""> Google</a> ou <a href="#"><img src="imgs/4202110facebooklogosocialsocialmedia-115707_115594.png" alt=""> Facebook</a></p>
+        </div>
+        <footer>
+            <p>Não é nosso cliente, <a href="../cadastrar/cadastro.html" target="_blank">cadastre-se</a></p>
+        </footer>
+        </div>
+    </div>
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
